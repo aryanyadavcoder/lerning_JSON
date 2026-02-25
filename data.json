@@ -1,0 +1,24 @@
+{
+  "quiz": [
+    {
+      "question": "Python kis type ki language hai?",
+      "options": [
+        "Compiled",
+        "Interpreted",
+        "Assembly",
+        "Machine"
+      ],
+      "answer": "Interpreted"
+    },
+    {
+      "question": "JSON ka full form kya hai?",
+      "options": [
+        "Java Source Object Notation",
+        "JavaScript Object Notation",
+        "Java Standard Output Network",
+        "None of these"
+      ],
+      "answer": "JavaScript Object Notation"
+    }
+  ]
+}
