@@ -1,6 +1,15 @@
-{
-    "rollno": 34,
-    "result": "pass",
-    "rollno": 45,
-    "result": "fail"
-}
+[
+    {
+        "rollno":45,
+        "result":"fail"
+    },
+    {
+        "rollno":26,
+        "result":"pass"
+    },
+    {
+        "rollno":15,
+        "result":"fail"
+    }
+
+]
