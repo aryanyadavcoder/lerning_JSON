@@ -1,22 +1,16 @@
-{"result":[    
-    {
-        "name":"amit kumar",
-        "rollno":34,
-        "hindi":45,
-        "math":38,
-        "english":50,
-        "science":61,
-        "social_science":55
-    },
-    {
-        
-        "name":"preet",
-        "rollno":44,
-        "hindi":35,
-        "math":58,
-        "english":40,
-        "science":65,
-        "social_science":65
-    }
-]
+{
+    "result": [
+        {
+            "name": "amit",
+            "rollno": 45,
+            "math": 65,
+            "englih": 56
+        },
+        {
+            "name": "rohit",
+            "rollno": 40,
+            "math": 55,
+            "englih": 46
+        }
+    ]
 }
