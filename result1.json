@@ -1,16 +1,14 @@
 {
-    "result": [
-        {
-            "name": "amit",
-            "rollno": 45,
-            "math": 65,
-            "englih": 56
-        },
-        {
-            "name": "rohit",
-            "rollno": 40,
-            "math": 55,
-            "englih": 46
-        }
-    ]
+    "40": {
+        "name": "rohit",
+        "rollno": 40,
+        "math": 55,
+        "englih": 46
+    },
+    "41": {
+        "name": "rohit",
+        "rollno": 41,
+        "math": 55,
+        "englih": 46
+    }
 }
