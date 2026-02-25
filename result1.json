@@ -1,0 +1,21 @@
+[
+    {
+        "Name":"Amit kumar",
+        "Rollno":34,
+        "Hindi":45,
+        "Math":38,
+        "English":50,
+        "Science":61,
+        "Social_Science":55
+    },
+    {
+        
+        "Name":"Preet",
+        "Rollno":44,
+        "Hindi":35,
+        "Math":58,
+        "English":40,
+        "Science":65,
+        "Social_Science":65
+    }
+]
