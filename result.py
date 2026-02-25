@@ -1,30 +1,9 @@
 import requests
+import json
 
-url = "https://raw.githubusercontent.com/aryanyadavcoder/lerning_JSON/main/result1.json"
-
-name = input("Enter Name: ").strip().lower()
-roll = input("Enter Roll No: ").strip()
-
-response = requests.get(url)
-data = response.json()
-
-found = False
-
-for student in data:
-    student_name = str(student.get("name", "")).strip().lower()
-    student_roll = str(student.get("rollno", "")).strip()
-
-    print("Checking:", student_name, student_roll)  # debug line
-
-    if student_name == name and student_roll == roll:
-        print("\nResult Found ✅")
-        print("Math:", student["math"])
-        print("Science:", student["science"])
-        print("English:", student["english"])
-        total = student["math"] + student["science"] + student["english"]
-        print("Total:", total)
-        found = True
-        break
-
-if not found:
-    print("Student Not Found ❌")
+response = requests.get("https://raw.githubusercontent.com/aryanyadavcoder/lerning_JSON/refs/heads/main/result1.json")
+data =str( response.json())
+# data=json.loads(data)
+print(data)
+# for key,value in data.items():
+#     print(key,value)
