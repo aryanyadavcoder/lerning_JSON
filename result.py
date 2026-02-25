@@ -1,6 +1,6 @@
 import requests
 
-url = "https://yourusername.github.io/repositoryname/result.json"
+url = "https://raw.githubusercontent.com/aryanyadavcoder/lerning_JSON/main/result1.json"
 
 name = input("Enter Name: ")
 roll = input("Enter Roll No: ")
